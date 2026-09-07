@@ -1,0 +1,66 @@
+# =========================
+# Java
+# =========================
+*.class
+*.log
+
+# =========================
+# Maven
+# =========================
+target/
+
+# =========================
+# Spring Boot Build Files
+# =========================
+*.jar
+*.war
+
+# =========================
+# Application Sensitive Files
+# =========================
+application-local.properties
+application-dev.properties
+application-prod.properties
+
+# Environment files
+.env
+.env.*
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# =========================
+# Eclipse
+# =========================
+.project
+.classpath
+.settings/
+.factorypath
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
